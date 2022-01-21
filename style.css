@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+/* --font-family1: 'Rubik Beastly', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+/* font-family: 'Mochiy Pop P One', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+/* font-family: 'Libre Baskerville', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* font-family: 'Roboto Mono', monospace; */
+/*=============== VARIABLES CSS ===============*/
+:root{
+       /*========== Colors ==========*/
+
+       /*========== Font and typography ==========*/
+       
+
+     --heading-font-size: 56px;
+     --heading1-font-size:40px;
+     --heading2-font-size:32px;   
+     --textfont-size:24px;
+     --text2font-size:18px;
+     --font-family1: 'Rubik Beastly', cursive;
+     --font-family2: 'Mochiy Pop P One', sans-serif;
+     --font-family3: 'Libre Baskerville', serif;
+     --font-family4: 'Roboto Mono', monospace;
+
+
+       /*========== Font weight ==========*/
+       --font-bold: 700
+       --font-semi-bold:600
+
+
+       /*========== Margenes ==========*/
+
+       /*========== z index ==========*/
+}
+
+
+
+  @media screen and (min-width: 968px) {
+    :root {
+      
+    }
+}
+body{
+    margin:0;
+}
+.bannerheading{
+    font-size: var(--heading-font-size)!important;
+    font-family: var(--font-family1);
+}
+.bannerheading2{
+    font-size: var(--heading1-font-size)!important;
+    font-family: var(--font-family2)!important;
+}
+.bannerheading3{
+    font-size: var(--heading2-font-size)!important;
+    font-family: var(--font-family3)!important;
+}
+.text-1{
+    font-size: var(--textfont-size)!important;
+    font-family: var(--font-family4)!important;
+}
+.color-1{
+    font-size: var(--text2font-size)!important;
+    color:pink!important;
+    background-color: black!important;
+}
+.color-2{
+    font-size: var(--text2font-size)!important;
+    color:orange!important;
+    background-color: black!important;
+}
+
+.fwh-slide p{
+    margin:0;
+}
+
+.fwh-slide{
+    height:50vh;
+    background:#e37151;
+    box-sizing:border-box;
+    padding:35px;
+}
+.fwh-slide--tracks{
+    background:#f9a132;
+    color:black;
+}
+
+.fwh-slide--day-wise-section{
+    background:#343a6c;
+    color:black;
+}
+
+.fwh-slide--sponsors{
+    background:#50aa92;
+    color:black;
+}
+
+.fwh-slide--prizes{
+    background:#f9a132;
+    color:black;
+}
+
+.fwh-slide--partners{
+    background:#343a6c;
+    color:black;
+}
