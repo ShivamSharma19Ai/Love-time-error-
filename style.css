@@ -105,19 +105,3 @@ body{
     background:#343a6c;
     color:black;
 }
-.sponsors{
-    font-size: var(--textfont-size)!important;
-    font-family: var(--font-family4)!important;
-    text-align: center;
-}
-
-.sponsor-text{
-    font-family: var(--font-family4)!important;
-    text-align: center;
-}
-
-.prizes{
-    font-size: var(--textfont-size)!important;
-    font-family: var(--font-family4)!important;
-    text-align: center;
-}
