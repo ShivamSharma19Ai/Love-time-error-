@@ -235,16 +235,24 @@ nav {
 }
 
 .fwh-slide--prizes{
-    background:#f9a132;
+    background:#bbb2e9;
     color:black;
+    height: 825px;
 }
 
 .fwh-slide--partners{
     background:#343a6c;
     color:black;
 }
+
+.fwh-slide--faq{
+    background: whitesmoke;
+    color:black;
+    height: 825px;
+}
+
 #sponsors{
-    font-size: 50px;
+    font-size: 40px;
     font-family: var(--font-family4)!important;
     text-align: center!important;
 }
@@ -254,10 +262,19 @@ nav {
     text-align: center!important;
 }
 
+.faq-text{
+    font-family: var(--font-family4)!important;
+}
+
 .prizes{
-    font-size: var(--textfont-size)!important;
+    font-size: 40px;
     font-family: var(--font-family4)!important;
     text-align: center!important;
+}
+
+.faq{
+    font-size: 40px;
+    font-family: var(--font-family4)!important;
 }
 
 .gold-sponsor-title{
