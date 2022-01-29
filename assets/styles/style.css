@@ -235,9 +235,9 @@ nav {
 }
 
 .fwh-slide--prizes{
-    background:#bbb2e9;
+    background:#ccccff;
     color:black;
-    height: 825px;
+    height: 1200px;
 }
 
 .fwh-slide--partners{
@@ -310,4 +310,27 @@ nav {
 
 .sponsor-hierarchy{
     display: flex;
+}
+
+.podium{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+.gold-trophy{
+    width: 10%;
+}
+
+.gold-trophy-{
+    display: flex;
+    margin-left: 100px;
+}
+
+.gold-trophy-text{
+    padding-left: revert;
+    padding-top: 16px;
+    font-size: x-large;
+    font-family: var(--font-family4)!important;
 }
