@@ -334,3 +334,12 @@ nav {
     font-size: x-large;
     font-family: var(--font-family4)!important;
 }
+
+@media only screen and (max-width: 900px) {
+    .gold-trophy{
+        width: 21%;
+    }
+    .gold-trophy-text{
+        font-size: small;
+    }
+  }
