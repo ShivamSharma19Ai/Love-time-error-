@@ -6,6 +6,8 @@
 /* font-family: 'Libre Baskerville', serif; */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 /* font-family: 'Roboto Mono', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
 /*=============== VARIABLES CSS ===============*/
 :root{
        /*========== Colors ==========*/
@@ -22,6 +24,7 @@
      --font-family2: 'Mochiy Pop P One', sans-serif;
      --font-family3: 'Libre Baskerville', serif;
      --font-family4: 'Roboto Mono', monospace;
+     --font-family5: 'Montserrat', sans-serif;
 
 
        /*========== Font weight ==========*/
@@ -226,16 +229,117 @@ nav {
 }
 
 .fwh-slide--sponsors{
-    background:#50aa92;
+    background: pink;
     color:black;
+    height: 825px;
 }
 
 .fwh-slide--prizes{
-    background:#f9a132;
+    background:#ccccff;
     color:black;
+    height: 1200px;
 }
 
 .fwh-slide--partners{
     background:#343a6c;
     color:black;
 }
+
+.fwh-slide--faq{
+    background: whitesmoke;
+    color:black;
+    height: 825px;
+}
+
+#sponsors{
+    font-size: 40px;
+    font-family: var(--font-family4)!important;
+    text-align: center!important;
+}
+
+.sponsor-text{
+    font-family: var(--font-family4)!important;
+    text-align: center!important;
+}
+
+.faq-text{
+    font-family: var(--font-family4)!important;
+}
+
+.prizes{
+    font-size: 40px;
+    font-family: var(--font-family4)!important;
+    text-align: center!important;
+}
+
+.faq{
+    font-size: 40px;
+    font-family: var(--font-family4)!important;
+}
+
+.gold-sponsor-title{
+    font-size: var(--textfont-size)!important;
+    font-family: var(--font-family5)!important;
+    text-align: center!important;
+    color: gold;
+}
+
+.silver-sponsor-title{
+    font-size: var(--textfont-size)!important;
+    font-family: var(--font-family5)!important;
+    text-align: center!important;
+    color: silver;
+    width: 100%!important;
+    display: block;
+}
+
+.bronze-sponsor-title{
+    font-size: var(--textfont-size)!important;
+    font-family: var(--font-family5)!important;
+    text-align: center!important;
+    color: #CD7F32;
+    width: 100%!important;
+    display: block;
+}
+
+.sponsor-gold{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.sponsor-hierarchy{
+    display: flex;
+}
+
+.podium{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+.gold-trophy{
+    width: 10%;
+}
+
+.gold-trophy-{
+    display: flex;
+    margin-left: 100px;
+}
+
+.gold-trophy-text{
+    padding-left: revert;
+    padding-top: 16px;
+    font-size: x-large;
+    font-family: var(--font-family4)!important;
+}
+
+@media only screen and (max-width: 900px) {
+    .gold-trophy{
+        width: 21%;
+    }
+    .gold-trophy-text{
+        font-size: small;
+    }
+  }
